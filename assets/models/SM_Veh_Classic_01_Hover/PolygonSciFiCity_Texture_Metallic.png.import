@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/PolygonSciFiCity_Texture_Metallic.png-4a58b78bf358e12f71ff7ce72961f74b.s3tc.stex"
+path.etc2="res://.import/PolygonSciFiCity_Texture_Metallic.png-4a58b78bf358e12f71ff7ce72961f74b.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://assets/models/SM_Veh_Classic_01_Hover/PolygonSciFiCity_Texture_Metallic.png"
+dest_files=[ "res://.import/PolygonSciFiCity_Texture_Metallic.png-4a58b78bf358e12f71ff7ce72961f74b.s3tc.stex", "res://.import/PolygonSciFiCity_Texture_Metallic.png-4a58b78bf358e12f71ff7ce72961f74b.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
