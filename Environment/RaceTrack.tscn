@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/models/race-track-simple.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Vehicles/Vehicle.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Vehicles/Camera.tscn" type="PackedScene" id=3]
+
+[node name="RaceTrack" type="Spatial"]
+
+[node name="Vehicle" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.02207, 0 )
+
+[node name="Camera" parent="." instance=ExtResource( 3 )]
+current = false
+follow_this_path = NodePath("../Vehicle")
+target_distance = 24.0
+target_height = 18.0
+
+[node name="race-track-simple" parent="." instance=ExtResource( 1 )]
+transform = Transform( -8.74228e-06, 0, 200, 0, 200, 0, -200, 0, -8.74228e-06, 7.62939e-06, 17.7422, 57.0036 )

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStraightSkew.obj-a3f2e4dfe07229bdcb0337763b948374.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStraightSkew.obj-a3f2e4dfe07229bdcb0337763b948374.mesh" ]
+
+source_file="res://assets/models/modular/roadStraightSkew.obj"
+dest_files=[ "res://.import/roadStraightSkew.obj-a3f2e4dfe07229bdcb0337763b948374.mesh", "res://.import/roadStraightSkew.obj-a3f2e4dfe07229bdcb0337763b948374.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

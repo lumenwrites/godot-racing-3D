@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStraightLongBump0001.obj-707266e8f1105c26fc724e38e18c4d93.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStraightLongBump0001.obj-707266e8f1105c26fc724e38e18c4d93.mesh" ]
+
+source_file="res://assets/models/modular/roadStraightLongBump0001.obj"
+dest_files=[ "res://.import/roadStraightLongBump0001.obj-707266e8f1105c26fc724e38e18c4d93.mesh", "res://.import/roadStraightLongBump0001.obj-707266e8f1105c26fc724e38e18c4d93.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadPitStraightLong.obj-41f75024de2fb8214fba5434a447049d.mesh"
+
+[deps]
+
+files=[ "res://.import/roadPitStraightLong.obj-41f75024de2fb8214fba5434a447049d.mesh" ]
+
+source_file="res://assets/models/modular/roadPitStraightLong.obj"
+dest_files=[ "res://.import/roadPitStraightLong.obj-41f75024de2fb8214fba5434a447049d.mesh", "res://.import/roadPitStraightLong.obj-41f75024de2fb8214fba5434a447049d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

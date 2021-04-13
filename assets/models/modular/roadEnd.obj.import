@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadEnd.obj-3e51a3fac1a3a6013ab343f9e3f43f21.mesh"
+
+[deps]
+
+files=[ "res://.import/roadEnd.obj-3e51a3fac1a3a6013ab343f9e3f43f21.mesh" ]
+
+source_file="res://assets/models/modular/roadEnd.obj"
+dest_files=[ "res://.import/roadEnd.obj-3e51a3fac1a3a6013ab343f9e3f43f21.mesh", "res://.import/roadEnd.obj-3e51a3fac1a3a6013ab343f9e3f43f21.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

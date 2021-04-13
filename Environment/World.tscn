@@ -1,59 +1,75 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Materials/GridShader.tres" type="Shader" id=1]
+[ext_resource path="res://Environment/RaceTrackModular.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/textures/Grid.png" type="Texture" id=2]
 [ext_resource path="res://Vehicles/Vehicle.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Vehicles/Camera.tscn" type="PackedScene" id=4]
 
-[sub_resource type="ShaderMaterial" id=1]
-shader = ExtResource( 1 )
-shader_param/TileX = 16.0
-shader_param/TileY = 24.0
-shader_param/Color1 = Color( 0.607843, 0.733333, 0.784314, 1 )
-shader_param/Color2 = Color( 0.341176, 0.415686, 0.572549, 1 )
-shader_param/tex_frg_81 = ExtResource( 2 )
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.588235, 0.662745, 0.713726, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 128, 128, 128 )
 
-[sub_resource type="PrismMesh" id=2]
-left_to_right = 0.0
-size = Vector3( 4, 2, 4 )
+[sub_resource type="ProceduralSky" id=2]
+
+[sub_resource type="Environment" id=3]
+background_mode = 1
+background_sky = SubResource( 2 )
+background_color = Color( 0.168627, 0.47451, 0.678431, 1 )
+background_energy = 0.0
+ambient_light_color = Color( 0.117647, 0.67451, 0.945098, 1 )
+ambient_light_energy = 0.75
+fog_color = Color( 0.403922, 0.572549, 0.741176, 1 )
+fog_depth_begin = 0.0
+fog_depth_end = 1000.0
+tonemap_mode = 3
+ssao_intensity = 3.0
+ssao_light_affect = 1.0
+ssao_quality = 2
+dof_blur_far_distance = 33.42
+dof_blur_far_amount = 0.07
+dof_blur_far_quality = 2
+adjustment_enabled = true
+adjustment_brightness = 0.75
+adjustment_contrast = 1.5
+adjustment_saturation = 1.2
 
 [node name="World" type="Spatial"]
 
 [node name="Vehicle" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="CSGBox" type="CSGBox" parent="."]
-transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -0.1, 0 )
+transform = Transform( 12, 0, 0, 0, 12, 0, 0, 0, 12, 0, -6, 0 )
 use_collision = true
-width = 64.0
-height = 0.2
-depth = 64.0
+width = 512.0
+height = 1.0
+depth = 512.0
 material = SubResource( 1 )
 
-[node name="CSGBox2" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.553729, 14.6845 )
-use_collision = true
-depth = 16.0
-
-[node name="CSGBox5" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 2.44627, -0.315505 )
-use_collision = true
-height = 8.0
-depth = 16.0
-
-[node name="CSGBox3" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.38852, -0.553729, 14.6845 )
-use_collision = true
-depth = 16.0
-
-[node name="CSGBox4" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.8805, -0.553729, 14.6845 )
-use_collision = true
-depth = 16.0
-
-[node name="CSGMesh" type="CSGMesh" parent="."]
-transform = Transform( 1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 4, 1.11449, -13 )
-use_collision = true
-mesh = SubResource( 2 )
-
 [node name="Camera" parent="." instance=ExtResource( 4 )]
+current = false
 follow_this_path = NodePath("../Vehicle")
+
+[node name="Camera2" parent="." instance=ExtResource( 4 )]
+transform = Transform( 0.707107, 0.5, -0.5, 0, 0.707107, 0.707107, 0.707107, -0.5, 0.5, 4.35452, 8, 35.5459 )
+current = false
+follow_this_path = NodePath("../Vehicle")
+target_distance = 24.0
+target_height = 18.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 3 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.5, -0.75, 0.433013, 0, 0.5, 0.866026, -0.866025, -0.433013, 0.25, 0, 3.51226, 0 )
+light_color = Color( 0.972549, 0.901961, 0.803922, 1 )
+shadow_enabled = true
+
+[node name="DirectionalLight2" type="DirectionalLight" parent="."]
+transform = Transform( 0.542045, 0.727764, -0.420175, 0, 0.5, 0.866026, 0.840349, -0.469425, 0.271023, 0, 3.51226, 0 )
+light_color = Color( 0.352941, 0.584314, 0.886275, 1 )
+light_energy = 0.5
+
+[node name="RaceTrackModular" parent="." instance=ExtResource( 1 )]
+transform = Transform( -30, 0, -2.62268e-06, 0, 30, 0, 2.62268e-06, 0, -30, 17.1689, 0, -93.6897 )

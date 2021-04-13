@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStart.obj-df40977dbc70410cdfbcd66134bb52ab.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStart.obj-df40977dbc70410cdfbcd66134bb52ab.mesh" ]
+
+source_file="res://assets/models/modular/roadStart.obj"
+dest_files=[ "res://.import/roadStart.obj-df40977dbc70410cdfbcd66134bb52ab.mesh", "res://.import/roadStart.obj-df40977dbc70410cdfbcd66134bb52ab.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

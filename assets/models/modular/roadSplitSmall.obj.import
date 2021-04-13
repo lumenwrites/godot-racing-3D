@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadSplitSmall.obj-23c888e09220dbcc0df5e1075de92e3d.mesh"
+
+[deps]
+
+files=[ "res://.import/roadSplitSmall.obj-23c888e09220dbcc0df5e1075de92e3d.mesh" ]
+
+source_file="res://assets/models/modular/roadSplitSmall.obj"
+dest_files=[ "res://.import/roadSplitSmall.obj-23c888e09220dbcc0df5e1075de92e3d.mesh", "res://.import/roadSplitSmall.obj-23c888e09220dbcc0df5e1075de92e3d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadRampLong.obj-2196262fae0b672b1f12c3dfd0ab9978.mesh"
+
+[deps]
+
+files=[ "res://.import/roadRampLong.obj-2196262fae0b672b1f12c3dfd0ab9978.mesh" ]
+
+source_file="res://assets/models/modular/roadRampLong.obj"
+dest_files=[ "res://.import/roadRampLong.obj-2196262fae0b672b1f12c3dfd0ab9978.mesh", "res://.import/roadRampLong.obj-2196262fae0b672b1f12c3dfd0ab9978.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

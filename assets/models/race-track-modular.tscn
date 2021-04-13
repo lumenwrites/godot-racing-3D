@@ -1,0 +1,582 @@
+[gd_scene load_steps=57 format=2]
+
+[ext_resource path="res://assets/models/modular/roadPitEntry.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://assets/models/modular/roadEnd.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://assets/models/modular/roadCurvedSplit.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://assets/models/modular/roadCornerSmall.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://assets/models/modular/roadCornerSmallBorder.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://assets/models/modular/roadCornerBridgeSmall.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://assets/models/modular/roadCornerSmallSand.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://assets/models/modular/roadCornerBridgeLarger.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://assets/models/modular/roadCornerLargeBorder.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://assets/models/modular/roadCornerLargerWall.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://assets/models/modular/roadCornerLargerWallInner.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://assets/models/modular/roadCornerLargeWall.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://assets/models/modular/roadCornerLargeWallInner.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://assets/models/modular/roadSplitLarge.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://assets/models/modular/roadCornerLarger.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://assets/models/modular/roadCornerLarge.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://assets/models/modular/roadSplitLarger.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://assets/models/modular/roadSplitRoundLarge.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://assets/models/modular/roadCornerLargerSandInner.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://assets/models/modular/roadCornerLargerSand.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://assets/models/modular/roadCornerLargeBorderInner.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://assets/models/modular/roadCornerLargeSandInner.obj" type="ArrayMesh" id=22]
+[ext_resource path="res://assets/models/modular/roadCornerLargeSand.obj" type="ArrayMesh" id=23]
+[ext_resource path="res://assets/models/modular/roadCornerLargerBorder.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://assets/models/modular/roadCornerLargerBorderInner.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://assets/models/modular/roadStraightArrow.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://assets/models/modular/roadPitStraightLong.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://assets/models/modular/roadStraightLongMid.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://assets/models/modular/roadStraightBridge.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://assets/models/modular/roadCornerSmallWall.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://assets/models/modular/roadStraightSkew.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://assets/models/modular/roadStraightBridgeMid.obj" type="ArrayMesh" id=32]
+[ext_resource path="res://assets/models/modular/roadStart.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://assets/models/modular/roadStraight.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://assets/models/modular/roadRamp.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://assets/models/modular/roadSplitRound.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://assets/models/modular/roadRampLongCurved.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://assets/models/modular/roadRampLongCurvedWall.obj" type="ArrayMesh" id=38]
+[ext_resource path="res://assets/models/modular/roadRampLong.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://assets/models/modular/roadSplit.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://assets/models/modular/roadSide.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://assets/models/modular/roadRampLongWall.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://assets/models/modular/roadRampWall.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://assets/models/modular/roadSplitSmall.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://assets/models/modular/roadStartPositions.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://assets/models/modular/roadBump.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://assets/models/modular/roadCornerBridgeLarge.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://assets/models/modular/roadCrossing.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://assets/models/modular/roadCornerSmallSquare.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://assets/models/modular/roadStraightLongBumpRound.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://assets/models/modular/roadStraightLongBump.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://assets/models/modular/roadPitStraight.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://assets/models/modular/roadCurved.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://assets/models/modular/roadStraightLong.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://assets/models/modular/roadPitGarage.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://assets/models/modular/roadStraightBridgeStart.obj" type="ArrayMesh" id=56]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="roadBump" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -6 )
+mesh = ExtResource( 46 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Splits" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 10 )
+visible = false
+
+[node name="roadSplitLarger" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 3 )
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadSplitRoundLarge" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2 )
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCurvedSplit" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadPitEntry" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 1 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadSide" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -4 )
+mesh = ExtResource( 41 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadSplit" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -2 )
+mesh = ExtResource( 40 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadSplitLarge" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 8 )
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadSplitRound" type="MeshInstance" parent="Splits"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 4 )
+mesh = ExtResource( 36 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCornerSmallSquare" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 10 )
+mesh = ExtResource( 49 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCrossing" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 9 )
+mesh = ExtResource( 48 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCurved" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -11 )
+mesh = ExtResource( 53 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2 )
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadPitGarage" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 11 )
+mesh = ExtResource( 55 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadPitStraight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -9 )
+mesh = ExtResource( 52 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadPitStraightLong" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -8 )
+mesh = ExtResource( 27 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadRamp" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -15 )
+mesh = ExtResource( 35 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadRampLong" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -15 )
+mesh = ExtResource( 39 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadRampLongCurved" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15 )
+mesh = ExtResource( 37 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadRampLongCurvedWall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8 )
+mesh = ExtResource( 38 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadRampLongWall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8 )
+mesh = ExtResource( 42 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadRampWall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -9 )
+mesh = ExtResource( 43 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadSplitSmall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 9 )
+mesh = ExtResource( 44 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStart" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8 )
+mesh = ExtResource( 33 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStartPositions" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4 )
+mesh = ExtResource( 45 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -20 )
+mesh = ExtResource( 34 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightArrow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0 )
+mesh = ExtResource( 26 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightBridge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5 )
+mesh = ExtResource( 29 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="roadStraightBridgeMid" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6 )
+mesh = ExtResource( 32 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightBridgeStart" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4 )
+mesh = ExtResource( 56 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightLong" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2 )
+mesh = ExtResource( 54 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightLongBump" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -9 )
+mesh = ExtResource( 51 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightLongBumpRound" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -20 )
+mesh = ExtResource( 50 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightLongMid" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -6 )
+mesh = ExtResource( 28 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadStraightSkew" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -12 )
+mesh = ExtResource( 31 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="bridge" type="Spatial" parent="."]
+visible = false
+
+[node name="roadCornerBridgeLarge" type="MeshInstance" parent="bridge"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 7 )
+mesh = ExtResource( 47 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCornerBridgeLarger" type="MeshInstance" parent="bridge"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3 )
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCornerBridgeSmall" type="MeshInstance" parent="bridge"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="cornersmall" type="Spatial" parent="."]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 9, 0, -10 )
+
+[node name="roadCornerSmall" type="MeshInstance" parent="cornersmall"]
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCornerSmallBorder" type="MeshInstance" parent="cornersmall"]
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="roadCornerSmallSand" type="MeshInstance" parent="cornersmall"]
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+
+[node name="roadCornerSmallWall" type="MeshInstance" parent="cornersmall"]
+mesh = ExtResource( 30 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="cornerlarge" type="Spatial" parent="."]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7, 0, -11 )
+
+[node name="roadCornerLarge" type="MeshInstance" parent="cornerlarge"]
+mesh = ExtResource( 16 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCornerLargeBorder" type="MeshInstance" parent="cornerlarge"]
+mesh = ExtResource( 9 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="roadCornerLargeBorderInner" type="MeshInstance" parent="cornerlarge"]
+mesh = ExtResource( 21 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="roadCornerLargeSand" type="MeshInstance" parent="cornerlarge"]
+mesh = ExtResource( 23 )
+material/0 = null
+material/1 = null
+
+[node name="roadCornerLargeSandInner" type="MeshInstance" parent="cornerlarge"]
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+
+[node name="roadCornerLargeWall" type="MeshInstance" parent="cornerlarge"]
+mesh = ExtResource( 12 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="roadCornerLargeWallInner" type="MeshInstance" parent="cornerlarge"]
+mesh = ExtResource( 13 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="cornerhuge" type="Spatial" parent="."]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 5, 0, -12 )
+
+[node name="roadCornerLarger" type="MeshInstance" parent="cornerhuge"]
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="roadCornerLargerBorder" type="MeshInstance" parent="cornerhuge"]
+mesh = ExtResource( 24 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="roadCornerLargerBorderInner" type="MeshInstance" parent="cornerhuge"]
+mesh = ExtResource( 25 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="roadCornerLargerSand" type="MeshInstance" parent="cornerhuge"]
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+
+[node name="roadCornerLargerSandInner" type="MeshInstance" parent="cornerhuge"]
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+
+[node name="roadCornerLargerWall" type="MeshInstance" parent="cornerhuge"]
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="roadCornerLargerWallInner" type="MeshInstance" parent="cornerhuge"]
+mesh = ExtResource( 11 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null

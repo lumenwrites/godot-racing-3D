@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadSplitLarger.obj-626a6ff74fd78b3cb43adddcc3d9f448.mesh"
+
+[deps]
+
+files=[ "res://.import/roadSplitLarger.obj-626a6ff74fd78b3cb43adddcc3d9f448.mesh" ]
+
+source_file="res://assets/models/modular/roadSplitLarger.obj"
+dest_files=[ "res://.import/roadSplitLarger.obj-626a6ff74fd78b3cb43adddcc3d9f448.mesh", "res://.import/roadSplitLarger.obj-626a6ff74fd78b3cb43adddcc3d9f448.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

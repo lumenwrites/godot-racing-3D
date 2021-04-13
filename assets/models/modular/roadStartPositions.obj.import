@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadStartPositions.obj-48e2b96029d8c78ce677a8fbf31fc3de.mesh"
+
+[deps]
+
+files=[ "res://.import/roadStartPositions.obj-48e2b96029d8c78ce677a8fbf31fc3de.mesh" ]
+
+source_file="res://assets/models/modular/roadStartPositions.obj"
+dest_files=[ "res://.import/roadStartPositions.obj-48e2b96029d8c78ce677a8fbf31fc3de.mesh", "res://.import/roadStartPositions.obj-48e2b96029d8c78ce677a8fbf31fc3de.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

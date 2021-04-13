@@ -1,0 +1,38 @@
+[gd_scene load_steps=8 format=2]
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+flags_unshaded = true
+albedo_color = Color( 0, 0, 0, 0.219608 )
+
+[sub_resource type="Gradient" id=4]
+colors = PoolColorArray( 0, 0, 0, 1, 1, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=5]
+gradient = SubResource( 4 )
+
+[sub_resource type="Curve" id=6]
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), -1.30046, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=7]
+curve = SubResource( 6 )
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 2
+emission_box_extents = Vector3( 0, 0, 0 )
+direction = Vector3( 0, 0, 1 )
+gravity = Vector3( 0, 0, 0 )
+scale_curve = SubResource( 7 )
+color_ramp = SubResource( 5 )
+
+[sub_resource type="PlaneMesh" id=8]
+size = Vector2( 1, 1 )
+
+[node name="TrailParticles" type="Particles"]
+material_override = SubResource( 3 )
+emitting = false
+amount = 32
+lifetime = 2.0
+local_coords = false
+process_material = SubResource( 1 )
+draw_pass_1 = SubResource( 8 )

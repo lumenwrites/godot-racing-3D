@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadPitGarage.obj-f7f619f765269bbaf06fd3f67ba3ae03.mesh"
+
+[deps]
+
+files=[ "res://.import/roadPitGarage.obj-f7f619f765269bbaf06fd3f67ba3ae03.mesh" ]
+
+source_file="res://assets/models/modular/roadPitGarage.obj"
+dest_files=[ "res://.import/roadPitGarage.obj-f7f619f765269bbaf06fd3f67ba3ae03.mesh", "res://.import/roadPitGarage.obj-f7f619f765269bbaf06fd3f67ba3ae03.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
